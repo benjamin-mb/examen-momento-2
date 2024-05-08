@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: verdana;
+       }
+
+   body{
+       background-color: #3a3d27 ;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .container{
+       width: 1200px;
+       margin: 10px auto;
+       background: white;
+   }
+
+   .superior{
+       background-color: #1551a1;
+       overflow: hidden;
+   }
+
+   .logo{
+       float: left;
+       width: 300px;
+       padding: 35px;
+   }
+
+   .menu{
+       float: left;
+       padding: 50px;
+   
+   }
+
+   .opciones li{
+      float: left;
+       list-style: none;
+       
+   
+   }
+
+   .opciones li a{
+       color: white;
+       padding: 25px;
+       text-decoration: none;
+       border: 1px solid white;
+   }
+
+   .opciones li a:hover{
+       background: #3a3d27;
+   }
+
+   .cuerpo{
+       overflow: hidden;
+      
+   }
+
+   .concajas{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+   }
+   .caja{
+       display:inline-block;
+       width: 380px;
+       margin: 8px;
+       border: 1px solid;
+       overflow: hidden;
+       
+   }
+
+   .titulo{
+       margin: 20px;
+       text-align: center;
+       color: #ff7600;
+   }
+
+   .subtitulo{
+       background-color: #1551a1;
+       color: white;
+   }
+
+   .servicios{
+       text-align: center;
+       padding: 15px 0;
+   }
+
+   .efecto:hover{
+       opacity: 0.8    ;
+       cursor: pointer;
+   }
+
+   .contenido{
+       padding: 15px 20px;
+       text-align: justify;
+   }
+
+   .btn{
+       padding: 15px 20px;
+       margin: 20px 0;
+       color: white;
+       background-color: #1551a1;
+       border-radius: 5px;
+   }
+
+   .btn:hover{
+       background: #001735;
+       cursor:pointer;
+   }
+
+   footer{
+       background: #062348;
+       display:flex;
+       width: 100%;
+       color: white;
+       height:170px;
+       overflow: hidden;
+   }
+
+   
+   
+   footer .logoyes{
+       width: 50%;
+       margin: 15px 50px;
+       font-size:15px;
+       
+   }
+
+   footer .logoyes .foimg{
+       margin-bottom:20px;
+       padding-left: 25%;
+   }
+
+   .aplicaciones{
+       margin-top:43px ;
+       margin-left:13%;
+   }
+  
+   .aplicaciones ul{
+       display: flex;
+       list-style: none;
+       margin-top: 10px;
+   }
+
+   .aplicaciones .tf{
+       padding-left:35px;
+   }
+
+   
